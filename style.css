@@ -1,0 +1,178 @@
+
+/*         Header     */
+.page {
+  position: relative;
+  height: 100%
+}
+
+img {
+  vertical-align: bottom;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+.mobile-visible {
+  display: none;
+  visibility: hidden
+}
+.header {
+  position: fixed;
+  width: 25%;
+  height: 100%;
+  overflow: hidden
+}
+
+.my-photo {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  z-index: 0
+}
+
+.my-photo-small {
+  display: none
+}
+.my-photo-small {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto 40px
+}
+
+.my-photo-small img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 50%
+}
+.my-photo img {
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+  max-width: none;
+  min-height: 550px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,0)
+}
+
+
+/*     Page general code    */
+.site-main {
+  height: 100%;
+  margin-left: 25%;
+  position: relative;
+  background-color: #fff;
+  border-left: 5px solid #eee;
+  -webkit-box-shadow: -10px 0 20px 0 rgba(0,0,0,.04);
+  -moz-box-shadow: -10px 0 20px 0 rgba(0,0,0,.04);
+  box-shadow: -10px 0 20px 0 rgba(0,0,0,.04)
+}
+
+.site-title-block {
+  position: relative;
+  z-index: 1;
+  margin: 30px 20px 10px;
+  text-align: center
+}
+.pt-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-left: -5px;
+    padding-right: 5px;
+    /*     Zero difference so far ( 2:31 PM 13/12/21   */
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box
+    /*     Zero difference so far ( 2:31 PM 13/12/21   */
+}
+/*       End of page general code     */
+
+
+
+@media only screen and (max-width: 991px) {
+  .mobile-visible {
+      display:block;
+      visibility: visible
+  }
+
+  .header {
+      position: fixed;
+      width: 100%;
+      height: 50px;
+      border-bottom: 1px solid #f5f5f5;
+      background-color: #fff;
+      z-index: 100
+  }
+
+  .site-title-block {
+      margin: 0 20px;
+      text-align: left
+  }
+
+  .site-title-block .site-title {
+      display: inline-block;
+      font-size: 18px;
+      margin: 0;
+      line-height: 50px
+  }
+
+  .site-title-block .site-description {
+      display: none
+  }
+
+  .subpage-block {
+      margin-bottom: 40px
+  }
+
+  .my-photo {
+      display: none
+  }
+
+  .my-photo img {
+      display: none
+  }
+  .site-main {
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none
+}
+
+.site-main-menu {
+    text-align: center
+}
+.pt-wrapper {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+.pt-page {
+  padding: 15px 20px 60px
+}
+
+
+.blog-post-content {
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px
+}
+}
+
