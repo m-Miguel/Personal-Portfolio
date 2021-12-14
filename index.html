@@ -9,6 +9,8 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <!--     FontAwesome   -->
     <script src="https://kit.fontawesome.com/962e44a34e.js" crossorigin="anonymous"></script>
+    <!--       Social Media buttons  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
   </head>
   <body>
     <!--       Header   -->
@@ -30,7 +32,6 @@
     <div id="main" class="site-main">
       <!-- Page changer wrapper -->
       <div class="pt-wrapper">
-          <!-- Main menu -->
           
             <!--   Navbar   -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -56,6 +57,21 @@
           </ul>
         </div>
       </div>
+      <ul id="social-sidebar">
+        <li>
+          <a class="fa fa-twitter"><span>Twitter</span></a>
+        </li>
+        <li>
+          <a class="fa fa-facebook"><span>Facebook</span></a>
+        </li>
+        <li>
+          <a class="fa fa-instagram"><span>Instagram</span></a>
+        </li>
+        <li>
+          <a class="fa fa-github"><span>Github</span></a>
+        </li>
+        
+      </ul>
     </nav>
             <!-- Subpages -->
             <div class="subpages">
@@ -67,20 +83,183 @@
                 </div>
   
                 <div class="row">
-                  <div class="col-sm-12 col-md-12 mobile-visible subpage-block">
+                  <div class="col-sm-10 col-lg-6 mobile-visible subpage-block">
                     <div class="my-photo-small">
                       <img src="https://picsum.photos/412/412" alt="image">
                     </div>
                   </div>
-                  <div class="col-sm-6 col-md-6 subpage-block">
+                  <div class="col-sm-12 col-lg-6  subpage-block">
                     <div class="general-info">
                       <h3>I am Web Developer/Designer @ Company.com</h3>
                       <p>Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate. Ut a mi tempus massa malesuada fermentum.</p>
                       <p>Sed eleifend sed nibh nec fringilla. Donec eu cursus sem, vitae tristique ante. Cras pretium rutrum egestas. Integer ultrices libero sed justo vehicula, eget tincidunt tortor tempus. Sed tellus nibh, lobortis ut blandit sed, convallis a mauris.</p>
                     </div>
                   </div>
+                
+          <!--           Testimonials Carousel       -->
+          <div id="carouselExampleControls" class="carousel slide d-none d-lg-flex col-lg-6" data-bs-interval="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="carousel-caption">
+                  <h6>Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate. Ut a mi tempus massa malesuada fermentum.</h6>
+                <p>Client</p>
+              </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-caption">
+                  <h3>Testimonial</h3>
+                  <p>Client</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption">
+                <h3>Testimonial</h3>
+                <p>Client</p>
+            </div>
+          </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
+          <!-- Services block -->
+          <div class="block-title">
+            <h3>Services</h3>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-6 col-md-3 subpage-block">
+              <div class="service-block"> 
+                <div class="service-info">
+                  <img src="https://picsum.photos/66/72" alt="Responsive Design">
+                  <h4>Web Design</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3 subpage-block">
+              <div class="service-block"> 
+                <div class="service-info">
+                  <img src="https://picsum.photos/66/72" alt="Copywriter">
+                  <h4>Copywriter</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3 subpage-block">
+              <div class="service-block"> 
+                <div class="service-info">
+                  <img src="https://picsum.photos/66/72" alt="E-Commerce">
+                  <h4>E-Commerce</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3 subpage-block">
+              <div class="service-block"> 
+                <div class="service-info">
+                  <img src="https://picsum.photos/66/72" alt="Management">
+                  <h4>Management</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of Services block -->
+            <!-- Clients block -->
+            <div class="block-title">
+              <h3>Clients</h3>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-4 col-md-2 subpage-block">
+                <div class="client_block">
+                  <a href="#" target="_blank"><img src="https://picsum.photos/80/80" alt="image"></a>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-md-2 subpage-block">
+                <div class="client_block">
+                  <a href="#" target="_blank"><img src="https://picsum.photos/80/80" alt="image"></a>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-md-2 subpage-block">
+                <div class="client_block">
+                  <a href="#" target="_blank"><img src="https://picsum.photos/80/80" alt="image"></a>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-md-2 subpage-block">
+                <div class="client_block">
+                  <a href="#" target="_blank"><img src="https://picsum.photos/80/80" alt="image"></a>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-md-2 subpage-block">
+                <div class="client_block">
+                  <a href="#" target="_blank"><img src="https://picsum.photos/80/80" alt="image"></a>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-md-2 subpage-block">
+                <div class="client_block">
+                  <a href="#" target="_blank"><img src="https://picsum.photos/80/80" alt="image"></a>
+                </div>
+              </div>
+            </div>
+            <!-- End of Clients block -->
+
+            <!-- Fun facts block -->
+            <div class="block-title">
+              <h3>Fun Facts</h3>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6 col-md-3 subpage-block">
+                <div class="fun-fact-block gray-bg"> 
+                  <i class="pe-7s-icon pe-7s-smile"></i>
+                  <h4>Happy Clients</h4>
+                  <span class="fun-value">1,024</span>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-3 subpage-block">
+                <div class="fun-fact-block"> 
+                  <i class="pe-7s-icon pe-7s-alarm"></i>
+                  <h4>Working Hours</h4>
+                  <span class="fun-value">6,256</span>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-3 subpage-block">
+                <div class="fun-fact-block gray-bg"> 
+                  <i class="pe-7s-icon pe-7s-medal"></i>
+                  <h4>Awards Won</h4>
+                  <span class="fun-value">21</span>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-3 subpage-block">
+                <div class="fun-fact-block"> 
+                  <i class="pe-7s-icon pe-7s-coffee"></i>
+                  <h4>Coffee Consumed</h4>
+                  <span class="fun-value">20,000</span>
+                </div>
+              </div>
+            </div>
+            <!-- End of Fun fucts block -->
+          </section>
+          <!-- End of About Me Subpage -->
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
   </body>
