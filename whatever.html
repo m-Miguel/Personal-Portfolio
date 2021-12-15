@@ -59,3 +59,81 @@
 </div>
 </div>
 </div>
+
+
+<!--         Social Media buttons Code-->
+/*           Social media buttons      */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+
+
+#social-sidebar {
+right: 0;
+position: fixed;
+top: 50%;
+list-style: none;
+margin-right: 1%;
+}
+
+#social-sidebar a {
+
+color: #000;
+display: block;
+height: 45px;
+width: 45px;  
+font-size: 20px;
+line-height: 50px;
+position: relative;
+ cursor: pointer;
+  border-radius: 50%;
+ text-decoration: none;
+ text-align: center;
+}
+#social-sidebar a:hover span {
+right: 100%;
+opacity: 1;
+}
+#social-sidebar a span {
+ font: 12px "Open Sans", sans-serif;
+ text-transform: uppercase;
+border-radius: 3px;
+line-height: 24px;
+right: 50%;
+margin-top: -16px;
+opacity: 0;
+position: absolute;
+transition: opacity .3s, left .4s;
+top: 50%;
+z-index: -1;
+}
+
+
+#social-sidebar a[class*="twitter"]:hover,
+#social-sidebar a[class*="twitter"] span,
+#social-sidebar a[class*="twitter"] span:before {background: #00aced;
+margin-right: 10%;}
+
+#social-sidebar a[class*="facebook"]:hover,
+#social-sidebar a[class*="facebook"] span,
+#social-sidebar a[class*="facebook"] span:before {background: #3B5998;
+margin-right: 10%;}
+
+#social-sidebar a[class*="instagram"]:hover,
+#social-sidebar a[class*="instagram"] span,
+#social-sidebar a[class*="instagram"] span:before {background: #E34429;
+ margin-right: 10%;}
+
+#social-sidebar a[class*="dribbble"]:hover,
+#social-sidebar a[class*="dribbble"] span,
+#social-sidebar a[class*="dribbble"] span:before {background: #ea4c89;
+ margin-right: 10%;}
+
+#social-sidebar a[class*="dropbox"]:hover,
+#social-sidebar a[class*="dropbox"] span,
+#social-sidebar a[class*="dropbox"] span:before {background: #8DC5F2;
+ margin-right: 10%;}
+
+#social-sidebar a[class*="github"]:hover, 
+#social-sidebar a[class*="github"] span,
+#social-sidebar a[class*="github"] span:before {background: #9C7A5B;
+ margin-right: 10%;}

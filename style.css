@@ -14,13 +14,13 @@ img {
 
 .mobile-visible {
   display: none;
-  visibility: hidden
+  visibility: hidden;
 }
 .header {
   position: fixed;
   width: 25%;
   height: 100%;
-  overflow: hidden
+  overflow: hidden;
 }
 
 .my-photo {
@@ -28,25 +28,26 @@ img {
   height: 100%;
   width: 100%;
   text-align: center;
-  z-index: 0
+  z-index: 0;
 }
 
 .my-photo-small {
-  display: none
+  display: none;
 }
 .my-photo-small {
   display: block;
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  margin: 0 auto 40px
+  margin: 0 auto 40px;
 }
 
 .my-photo-small img {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 50%
+  border-radius: 50%;
+  
 }
 .my-photo img {
   display: block;
@@ -66,6 +67,10 @@ img {
 
 
 /*     Page general code    */
+@import 'pe-icon-7-stroke.css';@import 'font-awesome.css';@import "https://fonts.googleapis.com/css?family=Oswald:300,400,700";@import "https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,latin-ext,cyrillic";html {
+  height: 100%
+}
+
 .site-main {
   height: 100%;
   margin-left: 25%;
@@ -74,14 +79,17 @@ img {
   border-left: 5px solid #eee;
   -webkit-box-shadow: -10px 0 20px 0 rgba(0,0,0,.04);
   -moz-box-shadow: -10px 0 20px 0 rgba(0,0,0,.04);
-  box-shadow: -10px 0 20px 0 rgba(0,0,0,.04)
+  box-shadow: -10px 0 20px 0 rgba(0,0,0,.04);
 }
 
 .site-title-block {
   position: relative;
   z-index: 1;
   margin: 30px 20px 10px;
-  text-align: center
+  text-align: center;
+}
+.block-title {
+  margin-left: 10px;
 }
 .pt-wrapper {
     position: relative;
@@ -92,95 +100,17 @@ img {
     overflow-y: auto;
     margin-left: -5px;
     padding-right: 5px;
-    /*     Zero difference so far ( 2:31 PM 13/12/21   */
+    /*     Zero difference so far ( 2:31 PM 13/12/21  Update: 15/12/2021 */
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
-    box-sizing: content-box
-    /*     Zero difference so far ( 2:31 PM 13/12/21   */
+    box-sizing: content-box;
+    /*     Zero difference so far ( 2:31 PM 13/12/21  Update: 15/12/2021 */
 }
 /*       End of page general code     */
 
 
 
-@media only screen and (max-width: 991px) {
-  .mobile-visible {
-      display:block;
-      visibility: visible;
-  }
- 
-  .header {
-      position: relative;
-      width: 100%;
-      height: 50px;
-      border-bottom: 1px solid #f5f5f5;
-      background-color: #fff;
-      z-index: 100;
-  }
-  .navbar {
-    position: fixed;
-    width: 100%;
-  }
-  .site-title-block {
-      margin: 0 20px;
-      text-align: left
-  }
 
-  .site-title-block .site-title {
-      display: inline-block;
-      font-size: 18px;
-      margin: 0;
-      line-height: 50px
-  }
-
-  .site-title-block .site-description {
-      display: none
-  }
-
-  .subpage-block {
-      margin-bottom: 40px
-  }
-
-  .my-photo {
-      display: none
-  }
-
-  .my-photo img {
-      display: none
-  }
-  .site-main {
-    position: absolute;
-    top: 50px;
-    bottom: 0;
-    width: 100%;
-    height: auto;
-    margin: 0;
-    border: 0;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none
-}
-
-
-.pt-wrapper {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box
-}
-
-.pt-page {
-  padding: 15px 20px 60px;
-  margin-top: 10%;
-}
-
-
-.blog-post-content {
-  margin: 0;
-  padding-left: 20px;
-  padding-right: 20px
-}
-}
 /*        Carousel   Section   */
 #carouselExampleControls {
   height: 100px;
@@ -218,6 +148,7 @@ h6 {
  top: 50%;
  list-style: none;
  margin-right: 1%;
+ z-index: 200;
  }
  
  #social-sidebar a {
@@ -283,3 +214,286 @@ h6 {
  #social-sidebar a[class*="github"] span:before {background: #9C7A5B;
   margin-right: 10%;}
  
+/*           Clients, Fun Facts   section    */
+.service-block img {
+  max-width: 100px;
+  max-height: 74px;
+  margin: 0 0 18px;
+}
+
+.client_block {
+  text-align: center;
+  padding: 5px 0;
+  opacity: .4;
+  -webkit-transition-duration: .2s;
+  transition-duration: .2s;
+}
+
+.client_block:hover {
+  opacity: 1;
+}
+
+.client_block img {
+  max-width: 80px;
+}
+
+.fun-fact-block {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin: 0;
+  background: #fff;
+  padding: 20px 10px 15px;
+  -webkit-box-shadow: 0 1px 5px rgba(0,0,0,.1);
+  -moz-box-shadow: 0 1px 5px rgba(0,0,0,.1);
+  box-shadow: 0 1px 5px rgba(0,0,0,.1);
+}
+
+.fun-fact-block.gray-bg {
+  background-color: #fafafa;
+}
+
+.fun-fact-block h4 {
+  margin-top: 10px;
+}
+
+.fun-fact-block .fun-value {
+  font-size: 24px;
+  font-weight: 300;
+  display: block;
+  margin: 10px 0;
+  color: #2fc0d1;
+}
+/*        End of Clients, Fun Facts section    /*
+
+
+/*           Portfolio Section */
+
+
+.portfolio-grid figure {
+  width: 25%;
+  padding: .5em
+}
+
+.portfolio-grid img {
+  position: relative;
+  display: block;
+  width: 100%
+}
+
+.portfolio-filters {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2em;
+  text-align: center
+}
+
+.portfolio-filters li {
+  display: inline-block
+}
+
+.portfolio-filters li a,.portfolio-filters li a:hover {
+  color: #888;
+  text-decoration: none
+}
+
+.portfolio-filters li a:hover {
+  background-color: #eee
+}
+
+.portfolio-filters li.active a,.portfolio-filters li.active a:hover {
+  background-color: #2fc0d1;
+  color: #fff
+}
+
+.portfolio-grid figure a div {
+  top: 0;
+  left: -100%;
+  padding: 5px 20px;
+  transition: .3s ease-in-out;
+  color: #00aced;
+}
+
+.portfolio-grid figure a:hover div {
+  left: 0;
+}
+
+.portfolio-grid figure {
+  float: left;
+  background: #fff;
+  position: relative
+}
+
+.portfolio-grid figure a,.portfolio-grid figure a img {
+  display: block;
+  position: relative
+}
+
+.portfolio-grid figure a {
+  position: relative;
+  display: block;
+  overflow: hidden
+}
+
+.portfolio-grid figure a div {
+  position: absolute;
+  background: #4f565e;
+  background: rgba(79,86,94,.7);
+  width: 100%;
+  height: 100%;
+  color: #888
+}
+
+.portfolio-grid figure a div h5 {
+  display: inline-block;
+  font-size: 1rem;
+  margin: 10px 0;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.2)
+}
+
+.portfolio-grid figure a div h5:after {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 2px;
+  margin: 0 auto;
+  background-color: #2fc0d1
+}
+
+.portfolio-grid figure a div small {
+  color: #eee;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.2)
+}
+
+.portfolio-grid figure a div i {
+  color: #eee;
+  position: absolute;
+  bottom: 14px;
+  right: 20px;
+  margin: 0;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.2)
+}
+
+.portfolio-nav {
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 10px
+}
+
+
+.portfolio-title h1 {
+  display: inline-block;
+  margin: 0
+}
+
+.portfolio-block {
+  padding-top: 30px
+}
+
+.portfolio-page-content img {
+  max-width: 100%
+}
+
+/*      Page Breaker   Section    */
+
+@media only screen and (max-width: 991px) {
+  .mobile-visible {
+      display:block;
+      visibility: visible;
+  }
+ 
+  .header {
+      position: relative;
+      width: 100%;
+      height: 50px;
+      border-bottom: 1px solid #f5f5f5;
+      background-color: #fff;
+      z-index: 100;
+  }
+  .navbar {
+    position: fixed;
+    width: 100%;
+  }
+  .site-title-block {
+      margin: 0 20px;
+      text-align: left;
+  }
+
+  .site-title-block .site-title {
+      display: inline-block;
+      font-size: 18px;
+      margin: 0;
+      line-height: 50px;
+  }
+
+  .site-title-block .site-description {
+      display: none;
+  }
+
+  .subpage-block {
+      margin-bottom: 40px;
+  }
+
+  .my-photo {
+      display: none;
+  }
+
+  .my-photo img {
+      display: none;
+  }
+  .site-main {
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+
+.pt-wrapper {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.pt-page {
+  padding: 15px 20px 60px;
+  margin-top: 10%;
+}
+
+
+.blog-post-content {
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+}
+@media only screen and (max-width: 769px) {
+  .portfolio-grid figure {
+      width:50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .blog-masonry .item {
+      width:100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .portfolio-grid figure {
+      width:100%;
+  }
+}

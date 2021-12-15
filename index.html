@@ -77,19 +77,19 @@
             <div class="subpages">
               <!-- About Me Subpage -->
               <section class="pt-page pt-page-1" data-id="about_me">
-                <div class="section-title-block">
-                  <h2 class="section-title">About Me</h2>
-                  <h5 class="section-description">Artist, Thinker, Creative Doer</h5>
+                <div class="section-title-block ms-1 mt-1">
+                  <h2 class="section-title ms-1">About Me</h2>
+                  <h5 class="section-description ms-1">Artist, Thinker, Creative Doer</h5>
                 </div>
   
                 <div class="row">
-                  <div class="col-sm-10 col-lg-6 mobile-visible subpage-block">
+                  <div class="col-sm-12 col-lg-6 mobile-visible subpage-block">
                     <div class="my-photo-small">
                       <img src="https://picsum.photos/412/412" alt="image">
                     </div>
                   </div>
                   <div class="col-sm-12 col-lg-6  subpage-block">
-                    <div class="general-info">
+                    <div class="general-info ms-1">
                       <h3>I am Web Developer/Designer @ Company.com</h3>
                       <p>Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate. Ut a mi tempus massa malesuada fermentum.</p>
                       <p>Sed eleifend sed nibh nec fringilla. Donec eu cursus sem, vitae tristique ante. Cras pretium rutrum egestas. Integer ultrices libero sed justo vehicula, eget tincidunt tortor tempus. Sed tellus nibh, lobortis ut blandit sed, convallis a mauris.</p>
@@ -129,6 +129,7 @@
           </div>
         </div>
           <!-- Services block -->
+          <div class="container">
           <div class="block-title">
             <h3>Services</h3>
           </div>
@@ -136,10 +137,10 @@
           <div class="row">
             <div class="col-sm-6 col-md-3 subpage-block">
               <div class="service-block"> 
-                <div class="service-info">
+                <div class="service-info ms-2">
                   <img src="https://picsum.photos/66/72" alt="Responsive Design">
-                  <h4>Web Design</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                  <h4 class="ms-1">Web Design</h4>
+                  <p class="ms-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                 </div>
               </div>
             </div>
@@ -158,7 +159,7 @@
               <div class="service-block"> 
                 <div class="service-info">
                   <img src="https://picsum.photos/66/72" alt="E-Commerce">
-                  <h4>E-Commerce</h4>
+                  <h4>Translation</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                 </div>
               </div>
@@ -168,14 +169,16 @@
               <div class="service-block"> 
                 <div class="service-info">
                   <img src="https://picsum.photos/66/72" alt="Management">
-                  <h4>Management</h4>
+                  <h4>UI/UX Design</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
           <!-- End of Services block -->
             <!-- Clients block -->
+            <div class="container">
             <div class="block-title">
               <h3>Clients</h3>
             </div>
@@ -217,16 +220,18 @@
                 </div>
               </div>
             </div>
+          </div>
             <!-- End of Clients block -->
 
             <!-- Fun facts block -->
+            <div class="container">
             <div class="block-title">
               <h3>Fun Facts</h3>
             </div>
 
             <div class="row">
               <div class="col-sm-6 col-md-3 subpage-block">
-                <div class="fun-fact-block gray-bg"> 
+                <div class="fun-fact-block gray-bg ms-1"> 
                   <i class="pe-7s-icon pe-7s-smile"></i>
                   <h4>Happy Clients</h4>
                   <span class="fun-value">1,024</span>
@@ -257,9 +262,253 @@
                 </div>
               </div>
             </div>
-            <!-- End of Fun fucts block -->
+          </div>
+            <!--/ End of Fun fucts block -->
+
           </section>
-          <!-- End of About Me Subpage -->
+
+          <!--/ End of About Me Subpage -->
+
+          <!-- Portfolio Subpage -->
+          <div class="container">
+          <section class="pt-page pt-page-3" data-id="portfolio">
+            <div class="section-title-block">
+              <h2 class="section-title">Portfolio</h2>
+              <h5 class="section-description">My Best Works</h5>
+            </div>
+
+            <!-- Portfolio Content -->
+            <div class="portfolio-content">
+                          
+              <!-- Portfolio filter -->
+              <ul id="portfolio_filters" class="portfolio-filters">
+                <li class="active">
+                  <a class="filter btn btn-sm btn-link active" data-group="all">All</a>
+                </li>
+                <li>
+                  <a class="filter btn btn-sm btn-link" data-group="media">Media</a>
+                </li>
+                <li>
+                  <a class="filter btn btn-sm btn-link" data-group="illustration">Illustration</a>
+                </li>
+                <li>
+                  <a class="filter btn btn-sm btn-link" data-group="video">Video</a>
+                </li>
+              </ul>
+              <!-- End of Portfolio filter -->
+
+              <!-- Portfolio Grid -->
+              <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3">
+
+                <!-- Portfolio Item 1 -->
+                <figure class="item" data-groups='["all", "media"]'>
+                  <a class="ajax-page-load" href="https://condescending-khorana-1d5827.netlify.app/">
+                    <img src="./images/Airbnb Preview(r).jpg" alt="Airbnb clone webpage">
+                    <div>
+                      <h5 class="name">Airbnb Clone</h5>
+                      <small>Media</small>
+                      <i class="fa fa-file-text-o"></i>
+                    </div>
+                  </a>
+                </figure>
+                <!-- /Portfolio Item 1 -->
+
+                <!-- Portfolio Item 2 -->
+                <figure class="item">
+                  <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Praesent Dolor Ex" class="lightbox mfp-iframe">
+                    <img src="https://picsum.photos/253/253" alt="">
+                    <div>
+                      <h5 class="name">Project Name</h5>
+                      <small>Video</small>
+                      <i class="fa fa-video-camera"></i>
+                    </div>
+                  </a>
+                </figure>
+                <!-- /Portfolio Item 2 -->
+
+                <!-- Portfolio Item 3 -->
+                <figure class="item">
+                  <a href="images/portfolio/3.jpg" class="lightbox" title="Duis Eu Eros Viverra">
+                    <img src="https://picsum.photos/253/253" alt="">
+                    <div>
+                      <h5 class="name">Project Name</h5>
+                      <small>Illustration</small>
+                      <i class="fa fa-image"></i>
+                    </div>
+                  </a>
+                </figure>
+                <!-- /Portfolio Item 3 -->
+
+                <!-- Portfolio Item 4 -->
+                <figure class="item">
+                  <a class="ajax-page-load" href="portfolio-1.html">
+                    <img src="https://picsum.photos/253/253" alt="">
+                    <div>
+                      <h5 class="name">Project Name</h5>
+                      <small>Media</small>
+                      <i class="fa fa-file-text-o"></i>
+                    </div>
+                  </a>
+                </figure>
+                <!-- /Portfolio Item 4 -->
+
+                <!-- Portfolio Item 5 -->
+                <figure class="item">
+                  <a href="images/portfolio/5.jpg" class="lightbox" title="Aliquam Condimentum Magna Rhoncus">
+                    <img src="https://picsum.photos/253/253" alt="">
+                    <div>
+                      <h5 class="name">Project Name</h5>
+                      <small>Illustration</small>
+                      <i class="fa fa-image"></i>
+                    </div>
+                  </a>
+                </figure>
+                <!-- /Portfolio Item 5 -->
+
+                <!-- Portfolio Item 6 -->
+                <figure class="item">
+                  <a class="ajax-page-load" href="portfolio-1.html">
+                    <img src="https://picsum.photos/253/253" alt="">
+                    <div>
+                      <h5 class="name">Project Name</h5>
+                      <small>Media</small>
+                      <i class="fa fa-file-text-o"></i>
+                    </div>
+                  </a>
+                </figure>
+                <!-- /Portfolio Item 6 -->
+
+                <!-- Portfolio Item 7 -->
+                <figure class="item">
+                  <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Nulla Facilisi" class="lightbox mfp-iframe">
+                    <img src="https://picsum.photos/253/253" alt="">
+                    <div>
+                      <h5 class="name">Project Name</h5>
+                      <small>Video</small>
+                      <i class="fa fa-video-camera"></i>
+                    </div>
+                  </a>
+                </figure>
+                <!-- /Portfolio Item 7 -->
+
+                <!-- Portfolio Item 8 -->
+                <figure class="item">
+                  <a class="ajax-page-load" href="portfolio-1.html">
+                    <img src="https://picsum.photos/253/253" alt="">
+                    <div>
+                      <h5 class="name">Project Name</h5>
+                      <small>Media</small>
+                      <i class="fa fa-file-text-o"></i>
+                    </div>
+                  </a>
+                </figure>
+                <!-- /Portfolio Item 8 -->
+
+              <!-- /Portfolio Grid -->
+
+            </div>
+            
+            <!-- /Portfolio Content -->
+
+          </section>
+        </div>
+          <!-- /Portfolio Subpage -->
+        
+          <!--              Contact Me    -->
+          <section class="ftco-section">
+            <div class="container">
+            <div class="row justify-content-center">
+            <div class="col-md-6 text-center mb-5">
+            <h2 class="heading-section">Contact Form #01</h2>
+            </div>
+            </div>
+            <div class="row justify-content-center">
+            <div class="col-lg-10 col-md-12">
+            <div class="wrapper">
+            <div class="row no-gutters">
+            <div class="col-md-7 d-flex align-items-stretch">
+            <div class="contact-wrap w-100 p-md-5 p-4">
+            <h3 class="mb-4">Get in touch</h3>
+            <div id="form-message-warning" class="mb-4"></div>
+            <div id="form-message-success" class="mb-4">
+            Your message was sent, thank you!
+            </div>
+            <form method="POST" id="contactForm" name="contactForm">
+            <div class="row">
+            <div class="col-md-6">
+            <div class="form-group">
+            <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+            </div>
+            </div>
+            <div class="col-md-6">
+            <div class="form-group">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+            </div>
+            </div>
+            <div class="col-md-12">
+            <div class="form-group">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+            </div>
+            </div>
+            <div class="col-md-12">
+            <div class="form-group">
+            <textarea name="message" class="form-control" id="message" cols="30" rows="7" placeholder="Message"></textarea>
+            </div>
+            </div>
+            <div class="col-md-12">
+            <div class="form-group">
+            <input type="submit" value="Send Message" class="btn btn-primary">
+            <div class="submitting"></div>
+            </div>
+            </div>
+            </div>
+            </form>
+            </div>
+            </div>
+            <div class="col-md-5 d-flex align-items-stretch">
+            <div class="info-wrap bg-primary w-100 p-lg-5 p-4">
+            <h3 class="mb-4 mt-md-4">Contact us</h3>
+            <div class="dbox w-100 d-flex align-items-start">
+            <div class="icon d-flex align-items-center justify-content-center">
+            <span class="fa fa-map-marker"></span>
+            </div>
+            <div class="text pl-3">
+            <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+            </div>
+            </div>
+            <div class="dbox w-100 d-flex align-items-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+            <span class="fa fa-phone"></span>
+            </div>
+            <div class="text pl-3">
+            <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+            </div>
+            </div>
+            <div class="dbox w-100 d-flex align-items-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+            <span class="fa fa-paper-plane"></span>
+            </div>
+            <div class="text pl-3">
+            <p><span>Email:</span> <a href="/cdn-cgi/l/email-protection#acc5c2cac3ecd5c3d9dedfc5d8c982cfc3c1"><span class="__cf_email__" data-cfemail="6f060109002f16001a1d1c061b0a410c0002">[email&#160;protected]</span></a></p>
+            </div>
+            </div>
+            <div class="dbox w-100 d-flex align-items-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+            <span class="fa fa-globe"></span>
+            </div>
+            <div class="text pl-3">
+            <p><span>Website</span> <a href="#">yoursite.com</a></p>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </section>
+          
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
   </body>
