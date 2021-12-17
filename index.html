@@ -17,13 +17,13 @@
     <div id="page" class="page">
       <header id="site-header" class="header">
         <div class="my-photo">
-          <img src="https://picsum.photos/962/1050">
+          <img src="./images/portfolio profile picture 2.png">
           <div class="mask"></div>
         </div>
 
         <div class="site-title-block">
-          <h1 class="site-title">Miguel Moron</h1>
-          <p class="site-description">Web Designer</p>
+          <h1 class="site-title">Miguel Morón</h1>
+          <p class="site-description">Web Developer</p>
         </div>
        
       </header>
@@ -34,7 +34,7 @@
       <div class="pt-wrapper">
           
             <!--   Navbar   -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light text-center">
       <div class="container-fluid">
        
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,16 +43,14 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About me</a>
+              <a class="nav-link active" aria-current="page" href="#about-me">About me</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Resume</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+              <a class="nav-link" href="#contact-me" tabindex="-1" aria-disabled="true">Contact</a>
             </li>
           </ul>
         </div>
@@ -65,10 +63,10 @@
           <a class="fa fa-facebook"><span>Facebook</span></a>
         </li>
         <li>
-          <a class="fa fa-instagram"><span>Instagram</span></a>
+          <a class="fa fa-instagram" href="https://www.instagram.com/miguel_gimon/" target="_blank"><span>Instagram</span></a>
         </li>
         <li>
-          <a class="fa fa-github"><span>Github</span></a>
+          <a class="fa fa-github" href="https://github.com/m-Miguel" target="_blank"><span>Github</span></a>
         </li>
         
       </ul>
@@ -76,10 +74,11 @@
             <!-- Subpages -->
             <div class="subpages">
               <!-- About Me Subpage -->
-              <section class="pt-page pt-page-1" data-id="about_me">
+              <div class="container">
+              <section class="pt-page pt-page-1" id="about_me">
                 <div class="section-title-block ms-1 mt-1">
                   <h2 class="section-title ms-1">About Me</h2>
-                  <h5 class="section-description ms-1">Artist, Thinker, Creative Doer</h5>
+                  <h5 class="section-description ms-1">Programmer, Designer.</h5>
                 </div>
   
                 <div class="row">
@@ -90,30 +89,27 @@
                   </div>
                   <div class="col-sm-12 col-lg-6  subpage-block">
                     <div class="general-info ms-1">
-                      <h3>I am Web Developer/Designer @ Company.com</h3>
-                      <p>Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate. Ut a mi tempus massa malesuada fermentum.</p>
-                      <p>Sed eleifend sed nibh nec fringilla. Donec eu cursus sem, vitae tristique ante. Cras pretium rutrum egestas. Integer ultrices libero sed justo vehicula, eget tincidunt tortor tempus. Sed tellus nibh, lobortis ut blandit sed, convallis a mauris.</p>
+                      <h3>I am an aspiring Web Developer</h3>
+                      <p>From Venezuela with much love. During the pandemic I discovered coding and how much I like it. This is my personal portfolio where all my coding projects will be hosted, Hopefully you will like it!</p>
                     </div>
                   </div>
-                
-          <!--           Testimonials Carousel       -->
-          <div id="carouselExampleControls" class="carousel slide d-none d-lg-flex col-lg-6" data-bs-interval="false">
+                   <div id="carouselExampleControls" class="carousel slide d-none d-lg-flex col-lg-6" data-bs-interval="false">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="carousel-caption">
-                  <h6>Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate. Ut a mi tempus massa malesuada fermentum.</h6>
+                  <h6>Testimonial</h6>
                 <p>Client</p>
               </div>
               </div>
               <div class="carousel-item">
                 <div class="carousel-caption">
-                  <h3>Testimonial</h3>
+                  <h6>Testimonial</h6>
                   <p>Client</p>
               </div>
             </div>
             <div class="carousel-item">
               <div class="carousel-caption">
-                <h3>Testimonial</h3>
+                <h6>Testimonial</h6>
                 <p>Client</p>
             </div>
           </div>
@@ -128,6 +124,12 @@
             </button>
           </div>
         </div>
+                </div>
+          <!--           Testimonials Carousel       -->
+          
+            
+         
+      </div>
           <!-- Services block -->
           <div class="container">
           <div class="block-title">
@@ -138,7 +140,7 @@
             <div class="col-sm-6 col-md-3 subpage-block">
               <div class="service-block"> 
                 <div class="service-info ms-2">
-                  <img src="https://picsum.photos/66/72" alt="Responsive Design">
+                  <img src="https://img.icons8.com/external-justicon-flat-justicon/64/000000/external-web-design-responsive-web-design-justicon-flat-justicon-1.png"/>
                   <h4 class="ms-1">Web Design</h4>
                   <p class="ms-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                 </div>
@@ -148,7 +150,7 @@
             <div class="col-sm-6 col-md-3 subpage-block">
               <div class="service-block"> 
                 <div class="service-info">
-                  <img src="https://picsum.photos/66/72" alt="Copywriter">
+                  <img src="https://img.icons8.com/external-kmg-design-flat-kmg-design/64/000000/external-copywriting-back-to-school-kmg-design-flat-kmg-design-1.png"/>
                   <h4>Copywriter</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                 </div>
@@ -158,8 +160,8 @@
             <div class="col-sm-6 col-md-3 subpage-block">
               <div class="service-block"> 
                 <div class="service-info">
-                  <img src="https://picsum.photos/66/72" alt="E-Commerce">
-                  <h4>Translation</h4>
+                  <img src="https://img.icons8.com/fluency/64/000000/requires-interpreter.png"/>
+                  <h4>Translator</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                 </div>
               </div>
@@ -168,7 +170,7 @@
             <div class="col-sm-6 col-md-3 subpage-block">
               <div class="service-block"> 
                 <div class="service-info">
-                  <img src="https://picsum.photos/66/72" alt="Management">
+                  <img src="https://img.icons8.com/color/48/000000/design--v2.png"/>
                   <h4>UI/UX Design</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                 </div>
@@ -184,41 +186,42 @@
             </div>
 
             <div class="row">
+             
+                <div class="col-sm-4 col-md-2 subpage-block">
+                <div class="client_block">
+                  <a href="https://www.instagram.com/detalleshistoricos/" target="_blank"><img src="./images/detalleshistoricos.jpeg" alt="image"></a>
+                </div>
+              </div>
+               <div class="col-sm-4 col-md-2 subpage-block">
+                <div class="client_block">
+                  <a href="#" target="_blank"><img src="./images/company-logo-1.png" alt="image"></a>
+                </div>
+              </div>
               <div class="col-sm-4 col-md-2 subpage-block">
                 <div class="client_block">
-                  <a href="#" target="_blank"><img src="https://picsum.photos/80/80" alt="image"></a>
+                  <a href="#" target="_blank"><img src="./images/brand-logo-concept-vector-design.webp" alt="image"></a>
                 </div>
               </div>
 
               <div class="col-sm-4 col-md-2 subpage-block">
                 <div class="client_block">
-                  <a href="#" target="_blank"><img src="https://picsum.photos/80/80" alt="image"></a>
+                  <a href="#" target="_blank"><img src="./images/vector-abstract-company-logo-template-design-illustration.webp" alt="image"></a>
                 </div>
               </div>
 
               <div class="col-sm-4 col-md-2 subpage-block">
                 <div class="client_block">
-                  <a href="#" target="_blank"><img src="https://picsum.photos/80/80" alt="image"></a>
+                  <a href="#" target="_blank"><img src="./images/Free-Creative-Company-Logo.jpg" alt="image"></a>
                 </div>
               </div>
 
               <div class="col-sm-4 col-md-2 subpage-block">
                 <div class="client_block">
-                  <a href="#" target="_blank"><img src="https://picsum.photos/80/80" alt="image"></a>
+                  <a href="#" target="_blank"><img src="./images/oasdom.com-6-free-logo-design-online.jpg" alt="image"></a>
                 </div>
               </div>
 
-              <div class="col-sm-4 col-md-2 subpage-block">
-                <div class="client_block">
-                  <a href="#" target="_blank"><img src="https://picsum.photos/80/80" alt="image"></a>
-                </div>
-              </div>
-
-              <div class="col-sm-4 col-md-2 subpage-block">
-                <div class="client_block">
-                  <a href="#" target="_blank"><img src="https://picsum.photos/80/80" alt="image"></a>
-                </div>
-              </div>
+              
             </div>
           </div>
             <!-- End of Clients block -->
@@ -234,7 +237,7 @@
                 <div class="fun-fact-block gray-bg ms-1"> 
                   <i class="pe-7s-icon pe-7s-smile"></i>
                   <h4>Happy Clients</h4>
-                  <span class="fun-value">1,024</span>
+                  <span class="fun-value">Soon</span>
                 </div>
               </div>
 
@@ -242,7 +245,7 @@
                 <div class="fun-fact-block"> 
                   <i class="pe-7s-icon pe-7s-alarm"></i>
                   <h4>Working Hours</h4>
-                  <span class="fun-value">6,256</span>
+                  <span class="fun-value">100</span>
                 </div>
               </div>
 
@@ -250,7 +253,7 @@
                 <div class="fun-fact-block gray-bg"> 
                   <i class="pe-7s-icon pe-7s-medal"></i>
                   <h4>Awards Won</h4>
-                  <span class="fun-value">21</span>
+                  <span class="fun-value">Hopefully</span>
                 </div>
               </div>
 
@@ -258,7 +261,7 @@
                 <div class="fun-fact-block"> 
                   <i class="pe-7s-icon pe-7s-coffee"></i>
                   <h4>Coffee Consumed</h4>
-                  <span class="fun-value">20,000</span>
+                  <span class="fun-value">120</span>
                 </div>
               </div>
             </div>
@@ -271,7 +274,7 @@
 
           <!-- Portfolio Subpage -->
           <div class="container">
-          <section class="pt-page pt-page-3" data-id="portfolio">
+          <section class="pt-page pt-page-3" id="portfolio">
             <div class="section-title-block">
               <h2 class="section-title">Portfolio</h2>
               <h5 class="section-description">My Best Works</h5>
@@ -286,13 +289,13 @@
                   <a class="filter btn btn-sm btn-link active" data-group="all">All</a>
                 </li>
                 <li>
-                  <a class="filter btn btn-sm btn-link" data-group="media">Media</a>
+                  <a class="filter btn btn-sm btn-link" data-group="media">Code</a>
                 </li>
                 <li>
-                  <a class="filter btn btn-sm btn-link" data-group="illustration">Illustration</a>
+                  <a class="filter btn btn-sm btn-link" data-group="illustration">UX/UI Design</a>
                 </li>
                 <li>
-                  <a class="filter btn btn-sm btn-link" data-group="video">Video</a>
+                  <a class="filter btn btn-sm btn-link" data-group="video">Copywrite/Translation</a>
                 </li>
               </ul>
               <!-- End of Portfolio filter -->
@@ -306,8 +309,8 @@
                     <img src="./images/Airbnb Preview(r).jpg" alt="Airbnb clone webpage">
                     <div>
                       <h5 class="name">Airbnb Clone</h5>
-                      <small>Media</small>
-                      <i class="fa fa-file-text-o"></i>
+                      <small>Coding</small>
+                      <i class="fa fa-code"></i>
                     </div>
                   </a>
                 </figure>
@@ -319,8 +322,8 @@
                     <img src="https://picsum.photos/253/253" alt="">
                     <div>
                       <h5 class="name">Project Name</h5>
-                      <small>Video</small>
-                      <i class="fa fa-video-camera"></i>
+                      <small>UX/UI Design</small>
+                      <i class="fa fa-pencil-ruler"></i>
                     </div>
                   </a>
                 </figure>
@@ -332,8 +335,8 @@
                     <img src="https://picsum.photos/253/253" alt="">
                     <div>
                       <h5 class="name">Project Name</h5>
-                      <small>Illustration</small>
-                      <i class="fa fa-image"></i>
+                      <small>Copywrite/Translation</small>
+                      <i class="fa fa-file-word"></i>
                     </div>
                   </a>
                 </figure>
@@ -345,8 +348,8 @@
                     <img src="https://picsum.photos/253/253" alt="">
                     <div>
                       <h5 class="name">Project Name</h5>
-                      <small>Media</small>
-                      <i class="fa fa-file-text-o"></i>
+                      <small>Coding</small>
+                      <i class="fa fa-code"></i>
                     </div>
                   </a>
                 </figure>
@@ -358,8 +361,8 @@
                     <img src="https://picsum.photos/253/253" alt="">
                     <div>
                       <h5 class="name">Project Name</h5>
-                      <small>Illustration</small>
-                      <i class="fa fa-image"></i>
+                      <small>UX/UI Design</small>
+                      <i class="fa fa-pencil-ruler"></i>
                     </div>
                   </a>
                 </figure>
@@ -371,8 +374,8 @@
                     <img src="https://picsum.photos/253/253" alt="">
                     <div>
                       <h5 class="name">Project Name</h5>
-                      <small>Media</small>
-                      <i class="fa fa-file-text-o"></i>
+                      <small>UX/UI Design</small>
+                      <i class="fa fa-pencil-ruler"></i>
                     </div>
                   </a>
                 </figure>
@@ -384,8 +387,8 @@
                     <img src="https://picsum.photos/253/253" alt="">
                     <div>
                       <h5 class="name">Project Name</h5>
-                      <small>Video</small>
-                      <i class="fa fa-video-camera"></i>
+                      <small>Copywrite/Translation</small>
+                      <i class="fa fa-file-word"></i>
                     </div>
                   </a>
                 </figure>
@@ -397,8 +400,8 @@
                     <img src="https://picsum.photos/253/253" alt="">
                     <div>
                       <h5 class="name">Project Name</h5>
-                      <small>Media</small>
-                      <i class="fa fa-file-text-o"></i>
+                      <small>Copywrite/Translation</small>
+                      <i class="fa fa-file-word"></i>
                     </div>
                   </a>
                 </figure>
@@ -407,32 +410,35 @@
               <!-- /Portfolio Grid -->
 
             </div>
-            
+            </div>
             <!-- /Portfolio Content -->
 
           </section>
         </div>
+            </div>
+            
+            
+            
           <!-- /Portfolio Subpage -->
         
           <!--              Contact Me    -->
-          <section class="ftco-section">
+          <div class="container">
+          <section class="ftco-section" id="contact-me">
             <div class="container">
             <div class="row justify-content-center">
             <div class="col-md-6 text-center mb-5">
-            <h2 class="heading-section">Contact Form #01</h2>
+            <h2 class="heading-section mt-4">Contact Me!</h2>
             </div>
             </div>
             <div class="row justify-content-center">
             <div class="col-lg-10 col-md-12">
             <div class="wrapper">
-            <div class="row no-gutters">
-            <div class="col-md-7 d-flex align-items-stretch">
+            <div class="row ">
+            <div class="col-md-7 d-flex align-items-stretch p-1">
             <div class="contact-wrap w-100 p-md-5 p-4">
             <h3 class="mb-4">Get in touch</h3>
             <div id="form-message-warning" class="mb-4"></div>
-            <div id="form-message-success" class="mb-4">
-            Your message was sent, thank you!
-            </div>
+            
             <form method="POST" id="contactForm" name="contactForm">
             <div class="row">
             <div class="col-md-6">
@@ -467,13 +473,13 @@
             </div>
             <div class="col-md-5 d-flex align-items-stretch">
             <div class="info-wrap bg-primary w-100 p-lg-5 p-4">
-            <h3 class="mb-4 mt-md-4">Contact us</h3>
+            <h3 class="mb-4 mt-md-4">Contact me</h3>
             <div class="dbox w-100 d-flex align-items-start">
             <div class="icon d-flex align-items-center justify-content-center">
             <span class="fa fa-map-marker"></span>
             </div>
             <div class="text pl-3">
-            <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+            <p><span>Address:</span> An address  </p>
             </div>
             </div>
             <div class="dbox w-100 d-flex align-items-center">
@@ -489,7 +495,7 @@
             <span class="fa fa-paper-plane"></span>
             </div>
             <div class="text pl-3">
-            <p><span>Email:</span> <a href="/cdn-cgi/l/email-protection#acc5c2cac3ecd5c3d9dedfc5d8c982cfc3c1"><span class="__cf_email__" data-cfemail="6f060109002f16001a1d1c061b0a410c0002">[email&#160;protected]</span></a></p>
+            <p><span>Email: <a href="#"> miguelmoron1998@gmail.com</a></span></p>
             </div>
             </div>
             <div class="dbox w-100 d-flex align-items-center">
@@ -497,7 +503,7 @@
             <span class="fa fa-globe"></span>
             </div>
             <div class="text pl-3">
-            <p><span>Website</span> <a href="#">yoursite.com</a></p>
+            <p><span>Website</span> <a href="#">inprogress.com</a></p>
             </div>
             </div>
             </div>
@@ -507,8 +513,10 @@
             </div>
             </div>
             </div>
-            </section>
-          
+            </section></div>
+          </div>
+        </div>
+        </div>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
   </body>

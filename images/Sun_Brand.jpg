@@ -1,0 +1,690 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%BoundingBox: 201 324 395 518 
+%%LanguageLevel: 1
+%%Creator: CorelDRAW 9
+%%Title: SunBrand.eps
+%%CreationDate: Fri Mar 17 11:25:24 2000
+%%For: LDN
+%%DocumentProcessColors: Cyan Magenta Yellow Black 
+%%DocumentSuppliedResources: (atend)
+%%EndComments
+%%BeginProlog
+/AutoFlatness false def
+/AutoSteps 0 def
+/CMYKMarks true def
+/UseLevel 1 def
+%Build: CorelDRAW 9 Version 9.397
+%Color profile:  Generic offset separations profile
+%%BeginResource: procset wCorel9Dict 9.0 0
+/wCorel9Dict 300 dict def wCorel9Dict begin
+% Copyright (c)1992-1999 Corel Corporation
+% All rights reserved.     v9.0 r0.5
+/bd{bind def}bind def/ld{load def}bd/xd{exch def}bd/_ null def/rp{{pop}repeat}
+bd/@cp/closepath ld/@gs/gsave ld/@gr/grestore ld/@np/newpath ld/Tl/translate ld
+/$sv 0 def/@sv{/$sv save def}bd/@rs{$sv restore}bd/spg/showpage ld/showpage{}
+bd currentscreen/@dsp xd/$dsp/@dsp def/$dsa xd/$dsf xd/$sdf false def/$SDF
+false def/$Scra 0 def/SetScr/setscreen ld/@ss{2 index 0 eq{$dsf 3 1 roll 4 -1
+roll pop}if exch $Scra add exch load SetScr}bd/SepMode_5 where{pop}{/SepMode_5
+0 def}ifelse/CurrentInkName_5 where{pop}{/CurrentInkName_5(Composite)def}
+ifelse/$ink_5 where{pop}{/$ink_5 -1 def}ifelse/$c 0 def/$m 0 def/$y 0 def/$k 0
+def/$t 1 def/$n _ def/$o 0 def/$fil 0 def/$C 0 def/$M 0 def/$Y 0 def/$K 0 def
+/$T 1 def/$N _ def/$O 0 def/$PF false def/s1c 0 def/s1m 0 def/s1y 0 def/s1k 0
+def/s1t 0 def/s1n _ def/$bkg false def/SK 0 def/SM 0 def/SY 0 def/SC 0 def/$op
+false def matrix currentmatrix/$ctm xd/$ptm matrix def/$ttm matrix def/$stm
+matrix def/$ffpnt true def/CorelDrawReencodeVect[16#0/grave 16#5/breve
+16#6/dotaccent 16#8/ring 16#A/hungarumlaut 16#B/ogonek 16#C/caron 16#D/dotlessi
+16#27/quotesingle 16#60/grave 16#7C/bar
+16#82/quotesinglbase/florin/quotedblbase/ellipsis/dagger/daggerdbl
+16#88/circumflex/perthousand/Scaron/guilsinglleft/OE
+16#91/quoteleft/quoteright/quotedblleft/quotedblright/bullet/endash/emdash
+16#98/tilde/trademark/scaron/guilsinglright/oe 16#9F/Ydieresis
+16#A1/exclamdown/cent/sterling/currency/yen/brokenbar/section
+16#a8/dieresis/copyright/ordfeminine/guillemotleft/logicalnot/minus/registered/macron
+16#b0/degree/plusminus/twosuperior/threesuperior/acute/mu/paragraph/periodcentered
+16#b8/cedilla/onesuperior/ordmasculine/guillemotright/onequarter/onehalf/threequarters/questiondown
+16#c0/Agrave/Aacute/Acircumflex/Atilde/Adieresis/Aring/AE/Ccedilla
+16#c8/Egrave/Eacute/Ecircumflex/Edieresis/Igrave/Iacute/Icircumflex/Idieresis
+16#d0/Eth/Ntilde/Ograve/Oacute/Ocircumflex/Otilde/Odieresis/multiply
+16#d8/Oslash/Ugrave/Uacute/Ucircumflex/Udieresis/Yacute/Thorn/germandbls
+16#e0/agrave/aacute/acircumflex/atilde/adieresis/aring/ae/ccedilla
+16#e8/egrave/eacute/ecircumflex/edieresis/igrave/iacute/icircumflex/idieresis
+16#f0/eth/ntilde/ograve/oacute/ocircumflex/otilde/odieresis/divide
+16#f8/oslash/ugrave/uacute/ucircumflex/udieresis/yacute/thorn/ydieresis]def
+/L2?/languagelevel where{pop languagelevel 2 ge}{false}ifelse def/Comp?{
+/LumSepsDict where{pop false}{/AldusSepsDict where{pop false}{1 0 0 0 @gs
+setcmykcolor currentcmykcolor @gr add add add 0 ne 0 1 0 0 @gs setcmykcolor
+currentcmykcolor @gr add add add 0 ne 0 0 1 0 @gs setcmykcolor currentcmykcolor
+@gr add add add 0 ne 0 0 0 1 @gs setcmykcolor currentcmykcolor @gr add add add
+0 ne and and and}ifelse}ifelse}bd/@PL{/LV where{pop LV 2 ge L2? not and{@np
+/Courier findfont 12 scalefont setfont 72 144 m
+(The PostScript level set in the Corel application is higher than)show 72 132 m
+(the PostScript level of this device. Change the PS Level in the Corel)show 72
+120 m(application to Level 1 by selecting the PostScript tab in the print)show
+72 108 m(dialog, and selecting Level 1 from the Compatibility drop down list.)
+show flush spg quit}if}if}bd/@BeginSysCorelDict{systemdict/Corel30Dict known
+{systemdict/Corel30Dict get exec}if systemdict/CorelLexDict known{1 systemdict
+/CorelLexDict get exec}if}bd/@EndSysCorelDict{systemdict/Corel30Dict known
+{end}if/EndCorelLexDict where{pop EndCorelLexDict}if}bd AutoFlatness{/@ifl{dup
+currentflat exch sub 10 gt{
+([Error: PathTooComplex; OffendingCommand: AnyPaintingOperator]\n)print flush
+@np exit}{currentflat 2 add setflat}ifelse}bd/@fill/fill ld/fill{currentflat{
+{@fill}stopped{@ifl}{exit}ifelse}bind loop setflat}bd/@eofill/eofill ld/eofill
+{currentflat{{@eofill}stopped{@ifl}{exit}ifelse}bind loop setflat}bd/@clip
+/clip ld/clip{currentflat{{@clip}stopped{@ifl}{exit}ifelse}bind loop setflat}
+bd/@eoclip/eoclip ld/eoclip{currentflat{{@eoclip}stopped{@ifl}{exit}ifelse}
+bind loop setflat}bd/@stroke/stroke ld/stroke{currentflat{{@stroke}stopped
+{@ifl}{exit}ifelse}bind loop setflat}bd}if L2?{/@ssa{true setstrokeadjust}bd}{
+/@ssa{}bd}ifelse/d/setdash ld/j/setlinejoin ld/J/setlinecap ld/M/setmiterlimit
+ld/w/setlinewidth ld/O{/$o xd}bd/R{/$O xd}bd/W/eoclip ld/c/curveto ld/C/c ld/l
+/lineto ld/L/l ld/rl/rlineto ld/m/moveto ld/n/newpath ld/N/newpath ld/P{11 rp}
+bd/u{}bd/U{}bd/A{pop}bd/q/@gs ld/Q/@gr ld/&{}bd/@j{@sv @np}bd/@J{@rs}bd/g{1
+exch sub/$k xd/$c 0 def/$m 0 def/$y 0 def/$t 1 def/$n _ def/$fil 0 def}bd/G{1
+sub neg/$K xd _ 1 0 0 0/$C xd/$M xd/$Y xd/$T xd/$N xd}bd/k{1 index type
+/stringtype eq{/$t xd/$n xd}{/$t 0 def/$n _ def}ifelse/$k xd/$y xd/$m xd/$c xd
+/$fil 0 def}bd/K{1 index type/stringtype eq{/$T xd/$N xd}{/$T 0 def/$N _ def}
+ifelse/$K xd/$Y xd/$M xd/$C xd}bd/x/k ld/X/K ld/sf{1 index type/stringtype eq{
+/s1t xd/s1n xd}{/s1t 0 def/s1n _ def}ifelse/s1k xd/s1y xd/s1m xd/s1c xd}bd/i{
+dup 0 ne{setflat}{pop}ifelse}bd/v{4 -2 roll 2 copy 6 -2 roll c}bd/V/v ld/y{2
+copy c}bd/Y/y ld/@w{matrix rotate/$ptm xd matrix scale $ptm dup concatmatrix
+/$ptm xd 1 eq{$ptm exch dup concatmatrix/$ptm xd}if 1 w}bd/@g{1 eq dup/$sdf xd
+{/$scp xd/$sca xd/$scf xd}if}bd/@G{1 eq dup/$SDF xd{/$SCP xd/$SCA xd/$SCF xd}
+if}bd/@D{2 index 0 eq{$dsf 3 1 roll 4 -1 roll pop}if 3 copy exch $Scra add exch
+load SetScr/$dsp xd/$dsa xd/$dsf xd}bd/$ngx{$SDF{$SCF SepMode_5 0 eq{$SCA}
+{$dsa}ifelse $SCP @ss}if}bd/p{/$pm xd 7 rp/$pyf xd/$pxf xd/$pn xd/$fil 1 def}
+bd/@MN{2 copy le{pop}{exch pop}ifelse}bd/@MX{2 copy ge{pop}{exch pop}ifelse}bd
+/InRange{3 -1 roll @MN @MX}bd/@sqr{dup 0 rl dup 0 exch rl neg 0 rl @cp}bd
+/currentscale{1 0 dtransform matrix defaultmatrix idtransform dup mul exch dup
+mul add sqrt 0 1 dtransform matrix defaultmatrix idtransform dup mul exch dup
+mul add sqrt}bd/@unscale{}bd/wDstChck{2 1 roll dup 3 -1 roll eq{1 add}if}bd
+/@dot{dup mul exch dup mul add 1 exch sub}bd/@lin{exch pop abs 1 exch sub}bd
+/cmyk2rgb{3{dup 5 -1 roll add 1 exch sub dup 0 lt{pop 0}if exch}repeat pop}bd
+/rgb2cmyk{3{1 exch sub 3 1 roll}repeat 3 copy @MN @MN 3{dup 5 -1 roll sub neg
+exch}repeat}bd/rgb2g{2 index .299 mul 2 index .587 mul add 1 index .114 mul add
+4 1 roll pop pop pop}bd/WaldoColor_5 where{pop}{/SetRgb/setrgbcolor ld/GetRgb
+/currentrgbcolor ld/SetGry/setgray ld/GetGry/currentgray ld/SetRgb2 systemdict
+/setrgbcolor get def/GetRgb2 systemdict/currentrgbcolor get def/SetHsb
+systemdict/sethsbcolor get def/GetHsb systemdict/currenthsbcolor get def
+/rgb2hsb{SetRgb2 GetHsb}bd/hsb2rgb{3 -1 roll dup floor sub 3 1 roll SetHsb
+GetRgb2}bd/setcmykcolor where{pop/LumSepsDict where{pop/SetCmyk_5{LumSepsDict
+/setcmykcolor get exec}def}{/AldusSepsDict where{pop/SetCmyk_5{AldusSepsDict
+/setcmykcolor get exec}def}{/SetCmyk_5/setcmykcolor ld}ifelse}ifelse}{
+/SetCmyk_5{cmyk2rgb SetRgb}bd}ifelse/currentcmykcolor where{pop/GetCmyk
+/currentcmykcolor ld}{/GetCmyk{GetRgb rgb2cmyk}bd}ifelse/setoverprint where
+{pop}{/setoverprint{/$op xd}bd}ifelse/currentoverprint where{pop}{
+/currentoverprint{$op}bd}ifelse/@tc_5{5 -1 roll dup 1 ge{pop}{4{dup 6 -1 roll
+mul exch}repeat pop}ifelse}bd/@trp{exch pop 5 1 roll @tc_5}bd
+/setprocesscolor_5{SepMode_5 0 eq{SetCmyk_5}{0 4 $ink_5 sub index exch pop 5 1
+roll pop pop pop pop SepsColor true eq{$ink_5 3 gt{1 sub neg SetGry}{0 0 0 4
+$ink_5 roll SetCmyk_5}ifelse}{1 sub neg SetGry}ifelse}ifelse}bd
+/findcmykcustomcolor where{pop}{/findcmykcustomcolor{5 array astore}bd}ifelse
+/setcustomcolor where{pop}{/setcustomcolor{exch aload pop SepMode_5 0 eq{pop
+@tc_5 setprocesscolor_5}{CurrentInkName_5 eq{4 index}{0}ifelse 6 1 roll 5 rp 1
+sub neg SetGry}ifelse}bd}ifelse/@scc_5{dup type/booleantype eq{setoverprint}{1
+eq setoverprint}ifelse dup _ eq{pop setprocesscolor_5 pop}{findcmykcustomcolor
+exch setcustomcolor}ifelse SepMode_5 0 eq{true}{GetGry 1 eq currentoverprint
+and not}ifelse}bd/colorimage where{pop/ColorImage{colorimage}def}{/ColorImage{
+/ncolors xd/$multi xd $multi true eq{ncolors 3 eq{/daqB xd/daqG xd/daqR xd pop
+pop exch pop abs{daqR pop daqG pop daqB pop}repeat}{/daqK xd/daqY xd/daqM xd
+/daqC xd pop pop exch pop abs{daqC pop daqM pop daqY pop daqK pop}repeat}
+ifelse}{/dataaq xd{dataaq ncolors dup 3 eq{/$dat xd 0 1 $dat length 3 div 1 sub
+{dup 3 mul $dat 1 index get 255 div $dat 2 index 1 add get 255 div $dat 3 index
+2 add get 255 div rgb2g 255 mul cvi exch pop $dat 3 1 roll put}for $dat 0 $dat
+length 3 idiv getinterval pop}{4 eq{/$dat xd 0 1 $dat length 4 div 1 sub{dup 4
+mul $dat 1 index get 255 div $dat 2 index 1 add get 255 div $dat 3 index 2 add
+get 255 div $dat 4 index 3 add get 255 div cmyk2rgb rgb2g 255 mul cvi exch pop
+$dat 3 1 roll put}for $dat 0 $dat length ncolors idiv getinterval}if}ifelse}
+image}ifelse}bd}ifelse/setcmykcolor{1 5 1 roll _ currentoverprint @scc_5
+/$ffpnt xd}bd/currentcmykcolor{GetCmyk}bd/setrgbcolor{rgb2cmyk setcmykcolor}bd
+/currentrgbcolor{currentcmykcolor cmyk2rgb}bd/sethsbcolor{hsb2rgb setrgbcolor}
+bd/currenthsbcolor{currentrgbcolor rgb2hsb}bd/setgray{dup dup setrgbcolor}bd
+/currentgray{currentrgbcolor rgb2g}bd/InsideDCS false def/IMAGE/image ld/image
+{InsideDCS{IMAGE}{/EPSDict where{pop SepMode_5 0 eq{IMAGE}{dup type/dicttype eq
+{dup/ImageType get 1 ne{IMAGE}{dup dup/BitsPerComponent get 8 eq exch
+/BitsPerComponent get 1 eq or currentcolorspace 0 get/DeviceGray eq and{
+CurrentInkName_5(Black)eq{IMAGE}{dup/DataSource get/TCC xd/Height get abs{TCC
+pop}repeat}ifelse}{IMAGE}ifelse}ifelse}{2 index 1 ne{CurrentInkName_5(Black)eq
+{IMAGE}{/TCC xd pop pop exch pop abs{TCC pop}repeat}ifelse}{IMAGE}ifelse}
+ifelse}ifelse}{IMAGE}ifelse}ifelse}bd}ifelse/WaldoColor_5 true def/@sft{$tllx
+$pxf add dup $tllx gt{$pwid sub}if/$tx xd $tury $pyf sub dup $tury lt{$phei
+add}if/$ty xd}bd/@stb{pathbbox/$ury xd/$urx xd/$lly xd/$llx xd}bd/@ep{{cvx exec
+}forall}bd/@tp{@sv/$in true def 2 copy dup $lly le{/$in false def}if $phei sub
+$ury ge{/$in false def}if dup $urx ge{/$in false def}if $pwid add $llx le{/$in
+false def}if $in{@np 2 copy m $pwid 0 rl 0 $phei neg rl $pwid neg 0 rl 0 $phei
+rl clip @np $pn cvlit load aload pop 7 -1 roll 5 index sub 7 -1 roll 3 index
+sub Tl matrix currentmatrix/$ctm xd @ep pop pop pop pop}{pop pop}ifelse @rs}bd
+/@th{@sft 0 1 $tly 1 sub{dup $psx mul $tx add{dup $llx gt{$pwid sub}{exit}
+ifelse}loop exch $phei mul $ty exch sub 0 1 $tlx 1 sub{$pwid mul 3 copy 3 -1
+roll add exch @tp pop}for pop pop}for}bd/@tv{@sft 0 1 $tlx 1 sub{dup $pwid mul
+$tx add exch $psy mul $ty exch sub{dup $ury lt{$phei add}{exit}ifelse}loop 0 1
+$tly 1 sub{$phei mul 3 copy sub @tp pop}for pop pop}for}bd/$fm 0 def/wfill{1
+$fm eq{fill}{eofill}ifelse}bd/wclip{1 $fm eq{clip}{eoclip}ifelse}bd/@pf{@gs
+$ctm setmatrix $pm concat @stb wclip @sv Bburx Bbury $pm itransform/$tury xd
+/$turx xd Bbllx Bblly $pm itransform/$tlly xd/$tllx xd newpath $tllx $tlly m
+$tllx $tury l $turx $tury l $turx $tlly l $tllx $tlly m @cp pathbbox @rs/$tury
+xd/$turx xd/$tlly xd/$tllx xd/$wid $turx $tllx sub def/$hei $tury $tlly sub def
+@gs $vectpat{1 0 0 0 0 _ $o @scc_5{wfill}if}{$t $c $m $y $k $n $o @scc_5{
+SepMode_5 0 eq $pfrg or{$tllx $tlly Tl $wid $hei scale <00> 8 1 false[8 0 0 1 0
+0]{}imagemask}{/$bkg true def}ifelse}if}ifelse @gr $wid 0 gt $hei 0 gt and{$pn
+cvlit load aload pop/$pd xd 3 -1 roll sub/$phei xd exch sub/$pwid xd $wid $pwid
+div ceiling 1 add/$tlx xd $hei $phei div ceiling 1 add/$tly xd $psx 0 eq{@tv}{
+@th}ifelse}if @gr @np/$bkg false def}bd/@Pf{@sv SepMode_5 0 eq $Psc 0 ne or
+$ink_5 3 eq or{0 J 0 j[]0 d $t $c $m $y $k $n $o @scc_5 pop $ctm setmatrix 72
+1000 div dup matrix scale dup concat dup Bburx exch Bbury exch itransform
+ceiling cvi/Bbury xd ceiling cvi/Bburx xd Bbllx exch Bblly exch itransform
+floor cvi/Bblly xd floor cvi/Bbllx xd $Prm aload pop $Psn load exec}{1 SetGry
+wfill}ifelse @rs @np}bd/F{matrix currentmatrix $sdf{$scf $sca $scp @ss}if $fil
+1 eq{@pf}{$fil 2 eq{@ff}{$fil 3 eq{@Pf}{$t $c $m $y $k $n $o @scc_5{wfill}
+{@np}ifelse}ifelse}ifelse}ifelse $sdf{$dsf $dsa $dsp @ss}if setmatrix}bd/f{@cp
+F}bd/S{matrix currentmatrix $ctm setmatrix $SDF{$SCF $SCA $SCP @ss}if $T $C $M
+$Y $K $N $O @scc_5{matrix currentmatrix $ptm concat stroke setmatrix}
+{@np}ifelse $SDF{$dsf $dsa $dsp @ss}if setmatrix}bd/s{@cp S}bd/B{@gs F @gr S}
+bd/b{@cp B}bd/_E{5 array astore exch cvlit xd}bd/@cc{currentfile $dat
+readhexstring pop}bd/@sm{/$ctm $ctm currentmatrix def}bd/@E{/Bbury xd/Bburx xd
+/Bblly xd/Bbllx xd}bd/@c{@cp}bd/@p{/$fil 1 def 1 eq dup/$vectpat xd{/$pfrg true
+def}{@gs $t $c $m $y $k $n $o @scc_5/$pfrg xd @gr}ifelse/$pm xd/$psy xd/$psx xd
+/$pyf xd/$pxf xd/$pn xd}bd/@P{/$fil 3 def/$Psn xd/$Psc xd array astore/$Prm xd
+}bd/@ii{concat 3 index 3 index m 3 index 1 index l 2 copy l 1 index 3 index l 3
+index 3 index l clip pop pop pop pop}bd/tcc{@cc}def/@i{@sm @gs @ii 6 index 1 ne
+{/$frg true def pop pop}{1 eq{s1t s1c s1m s1y s1k s1n $O @scc_5/$frg xd}{/$frg
+false def}ifelse 1 eq{@gs $ctm setmatrix F @gr}if}ifelse @np/$ury xd/$urx xd
+/$lly xd/$llx xd/$bts xd/$hei xd/$wid xd/$dat $wid $bts mul 8 div ceiling cvi
+string def $bkg $frg or{$SDF{$SCF $SCA $SCP @ss}if $llx $lly Tl $urx $llx sub
+$ury $lly sub scale $bkg{$t $c $m $y $k $n $o @scc_5 pop}if $wid $hei abs $bts
+1 eq{$bkg}{$bts}ifelse[$wid 0 0 $hei neg 0 $hei 0 gt{$hei}{0}ifelse]/tcc load
+$bts 1 eq{imagemask}{image}ifelse $SDF{$dsf $dsa $dsp @ss}if}{$hei abs{tcc pop}
+repeat}ifelse @gr $ctm setmatrix}bd/@I{@sm @gs @ii @np/$ury xd/$urx xd/$lly xd
+/$llx xd/$ncl xd/$bts xd/$hei xd/$wid xd $ngx $llx $lly Tl $urx $llx sub $ury
+$lly sub scale $wid $hei abs $bts[$wid 0 0 $hei neg 0 $hei 0 gt{$hei}{0}ifelse
+]$msimage false eq $ncl 1 eq or{/$dat $wid $bts mul $ncl mul 8 div ceiling cvi
+string def/@cc load false $ncl ColorImage}{$wid $bts mul 8 div ceiling cvi $ncl
+3 eq{dup dup/$dat1 exch string def/$dat2 exch string def/$dat3 exch string def
+/@cc1 load/@cc2 load/@cc3 load}{dup dup dup/$dat1 exch string def/$dat2 exch
+string def/$dat3 exch string def/$dat4 exch string def/@cc1 load/@cc2 load
+/@cc3 load/@cc4 load}ifelse true $ncl ColorImage}ifelse $SDF{$dsf $dsa $dsp
+@ss}if @gr $ctm setmatrix}bd/@cc1{currentfile $dat1 readhexstring pop}bd/@cc2{
+currentfile $dat2 readhexstring pop}bd/@cc3{currentfile $dat3 readhexstring pop
+}bd/@cc4{currentfile $dat4 readhexstring pop}bd/$msimage false def/COMP 0 def
+/MaskedImage false def L2?{/@I_2{@sm @gs @ii @np/$ury xd/$urx xd/$lly xd/$llx
+xd/$ncl xd/$bts xd/$hei xd/$wid xd/$dat $wid $bts mul $ncl mul 8 div ceiling
+cvi string def $ngx $ncl 1 eq{/DeviceGray}{$ncl 3 eq{/DeviceRGB}{/DeviceCMYK}
+ifelse}ifelse setcolorspace $llx $lly Tl $urx $llx sub $ury $lly sub scale 8
+dict begin/ImageType 1 def/Width $wid def/Height $hei abs def/BitsPerComponent
+$bts def/Decode $ncl 1 eq{[0 1]}{$ncl 3 eq{[0 1 0 1 0 1]}{[0 1 0 1 0 1 0 1]}
+ifelse}ifelse def/ImageMatrix[$wid 0 0 $hei neg 0 $hei 0 gt{$hei}{0}ifelse]def
+/DataSource currentfile/ASCII85Decode filter COMP 1 eq{/DCTDecode filter}{COMP
+2 eq{/RunLengthDecode filter}if}ifelse def currentdict end image $SDF{$dsf $dsa
+$dsp @ss}if @gr $ctm setmatrix}bd}{/@I_2{}bd}ifelse/@I_3{@sm @gs @ii @np/$ury
+xd/$urx xd/$lly xd/$llx xd/$ncl xd/$bts xd/$hei xd/$wid xd/$dat $wid $bts mul
+$ncl mul 8 div ceiling cvi string def $ngx $ncl 1 eq{/DeviceGray}{$ncl 3 eq
+{/DeviceRGB}{/DeviceCMYK}ifelse}ifelse setcolorspace $llx $lly Tl $urx $llx sub
+$ury $lly sub scale/ImageDataDict 8 dict def ImageDataDict begin/ImageType 1
+def/Width $wid def/Height $hei abs def/BitsPerComponent $bts def/Decode $ncl 1
+eq{[0 1]}{$ncl 3 eq{[0 1 0 1 0 1]}{[0 1 0 1 0 1 0 1]}ifelse}ifelse def
+/ImageMatrix[$wid 0 0 $hei neg 0 $hei 0 gt{$hei}{0}ifelse]def/DataSource
+currentfile/ASCII85Decode filter COMP 1 eq{/DCTDecode filter}{COMP 2 eq{
+/RunLengthDecode filter}if}ifelse def end/MaskedImageDict 7 dict def
+MaskedImageDict begin/ImageType 3 def/InterleaveType 3 def/MaskDict
+ImageMaskDict def/DataDict ImageDataDict def end MaskedImageDict image $SDF
+{$dsf $dsa $dsp @ss}if @gr $ctm setmatrix}bd/@SetMask{/$mbts xd/$mhei xd/$mwid
+xd/ImageMaskDict 8 dict def ImageMaskDict begin/ImageType 1 def/Width $mwid def
+/Height $mhei abs def/BitsPerComponent $mbts def/DataSource maskstream def
+/ImageMatrix[$mwid 0 0 $mhei neg 0 $mhei 0 gt{$mhei}{0}ifelse]def/Decode[1 0]
+def end}bd/@B{@gs S @gr F}bd/@b{@cp @B}bd/@sep{CurrentInkName_5(Composite)eq
+{/$ink_5 -1 def}{CurrentInkName_5(Cyan)eq{/$ink_5 0 def}{CurrentInkName_5
+(Magenta)eq{/$ink_5 1 def}{CurrentInkName_5(Yellow)eq{/$ink_5 2 def}{
+CurrentInkName_5(Black)eq{/$ink_5 3 def}{/$ink_5 4 def}ifelse}ifelse}ifelse}
+ifelse}ifelse}bd/@whi{@gs -72000 dup m -72000 72000 l 72000 dup l 72000 -72000
+l @cp 1 SetGry fill @gr}bd/@neg{[{1 exch sub}/exec cvx currenttransfer/exec
+cvx]cvx settransfer @whi}bd/deflevel 0 def/@sax{/deflevel deflevel 1 add def}
+bd/@eax{/deflevel deflevel dup 0 gt{1 sub}if def deflevel 0 gt{/eax load}{eax}
+ifelse}bd/eax{{exec}forall}bd/@rax{deflevel 0 eq{@rs @sv}if}bd/@daq{dup type
+/arraytype eq{{}forall}if}bd/@BMP{/@cc xd UseLevel 3 eq MaskedImage true eq and
+{7 -2 roll pop pop @I_3}{12 index 1 gt UseLevel 2 eq UseLevel 3 eq or and{7 -2
+roll pop pop @I_2}{11 index 1 eq{12 -1 roll pop @i}{7 -2 roll pop pop @I}
+ifelse}ifelse}ifelse}bd systemdict/pdfmark known not{/pdfmark/cleartomark ld}
+if
+end
+%%EndResource
+%%EndProlog
+%%BeginSetup
+wCorel9Dict begin
+@BeginSysCorelDict
+2.6131 setmiterlimit
+1.00 setflat
+/$fst 128 def
+%%EndSetup
+
+%%Page: 1 1
+%LogicalPage: 1
+%%BeginPageSetup
+@sv
+@sm
+@sv
+%%EndPageSetup
+@rax %Note: Object
+201.25984 324.56693 394.01575 517.32283 @E
+ 0 O 0 @g
+0.00 0.00 0.00 0.00 k
+/$fm 0 def
+201.25984 517.32283 m
+394.01575 517.32283 L
+394.01575 324.56693 L
+201.25984 324.56693 L
+201.25984 517.32283 L
+@c
+F
+
+@rax %Note: Object
+312.28299 441.86740 325.85641 469.51682 @E
+ 0 O 0 @g
+0.40 0.80 1.00 0.20 k
+/$fm 0 def
+325.85641 468.30076 m
+324.85975 468.72907 323.85033 469.13017 322.83184 469.51682 C
+312.28299 443.10869 L
+313.30772 442.73537 314.31061 442.31499 315.29735 441.86740 C
+325.85641 468.30076 L
+@c
+F
+
+@rax %Note: Object
+330.83121 427.30554 355.54904 447.01739 @E
+ 0 O 0 @g
+0.40 0.80 1.00 0.20 k
+/$fm 0 def
+332.78910 427.30554 m
+355.54904 444.41546 L
+354.91351 445.29732 354.25928 446.16387 353.58803 447.01739 C
+330.83121 429.90917 L
+331.51720 429.06841 332.16746 428.19761 332.78910 427.30554 C
+@c
+F
+
+@rax %Note: Object
+296.50649 445.62614 299.76435 474.01398 @E
+ 0 O 0 @g
+0.40 0.80 1.00 0.20 k
+/$fm 0 def
+299.76435 445.62614 m
+299.76435 473.95984 L
+299.05597 473.97940 298.35071 474.01398 297.63694 474.01398 C
+297.25767 474.01398 296.88491 473.99074 296.50649 473.98535 C
+296.50649 445.65165 L
+296.88378 445.66186 297.25767 445.68028 297.63694 445.68028 C
+298.35071 445.68028 299.05909 445.66101 299.76435 445.62614 C
+@c
+F
+
+@rax %Note: Object
+204.09449 401.72287 391.18110 441.02211 @E
+ 0 O 0 @g
+0.40 0.80 1.00 0.20 k
+/$fm 0 def
+391.18025 404.98129 m
+335.74450 404.98129 L
+334.63616 425.04066 317.96929 441.02211 297.63694 441.02211 C
+277.30460 441.02211 260.63745 425.04066 259.52967 404.98129 C
+204.09449 404.98129 L
+204.09449 401.72287 L
+391.18025 401.72287 L
+391.18110 401.72287 L
+391.18110 404.98129 L
+391.18025 404.98129 L
+@c
+262.79802 404.98129 m
+263.90126 423.24265 279.10233 437.76283 297.63694 437.76283 C
+316.17213 437.76283 331.37348 423.24265 332.47843 404.98129 C
+262.79802 404.98129 L
+@c
+F
+
+@rax %Note: Object
+269.42513 441.86740 282.98891 469.45729 @E
+ 0 O 0 @g
+0.40 0.80 1.00 0.20 k
+/$fm 0 def
+282.98891 443.10869 m
+272.44970 469.45729 L
+271.43178 469.07065 270.42208 468.66983 269.42513 468.24151 C
+279.97427 441.86740 L
+280.96101 442.31499 281.96391 442.73537 282.98891 443.10869 C
+@c
+F
+
+@rax %Note: Object
+239.62195 427.30554 264.44041 446.88189 @E
+ 0 O 0 @g
+0.40 0.80 1.00 0.20 k
+/$fm 0 def
+264.44041 429.90917 m
+241.58324 446.88189 L
+240.91200 446.02866 240.25720 445.16211 239.62195 444.27997 C
+262.48252 427.30554 L
+263.10416 428.19761 263.75443 429.06841 264.44041 429.90917 C
+@c
+F
+
+@rax %Note: Object
+336.44154 417.62154 355.59326 427.31263 @E
+ 0 O 0 @g
+0.40 0.80 1.00 0.20 k
+/$fm 0 def
+355.26076 425.74961 m
+355.11931 426.11726 354.97219 426.49852 354.81487 426.87071 C
+354.62863 427.31263 L
+354.18302 427.13461 L
+336.90756 420.22431 L
+336.44154 420.03808 L
+336.64025 419.57717 L
+336.87269 419.03660 337.08472 418.49490 337.24318 418.08331 C
+337.42035 417.62154 L
+337.88098 417.80494 L
+355.14510 424.70986 L
+355.59326 424.88957 L
+355.59326 424.89128 355.41921 425.34227 355.41921 425.34227 C
+355.26076 425.74961 L
+@c
+F
+
+@rax %Note: Object
+322.16513 435.85654 336.00161 453.10479 @E
+ 0 O 0 @g
+0.40 0.80 1.00 0.20 k
+/$fm 0 def
+322.16513 437.42920 m
+322.56709 437.13751 L
+322.98123 436.83647 323.40217 436.51871 323.85260 436.16494 C
+324.24548 435.85654 L
+324.54510 436.25650 L
+335.71191 451.14491 L
+336.00161 451.53071 L
+335.62091 451.82551 L
+335.19883 452.15150 334.76173 452.48967 334.31187 452.81906 C
+333.92211 453.10479 L
+333.63269 452.71786 L
+322.46362 437.82605 L
+322.16513 437.42920 L
+@c
+F
+
+@rax %Note: Object
+303.81534 444.30321 309.60822 464.10293 @E
+ 0 O 0 @g
+0.40 0.80 1.00 0.20 k
+/$fm 0 def
+305.88973 444.39931 m
+306.38296 444.30321 L
+306.46460 444.79871 L
+309.52885 463.17713 L
+309.60822 463.64995 L
+309.13710 463.73811 L
+308.98431 463.76674 L
+308.50696 463.85575 308.01317 463.94787 307.52022 464.02668 C
+307.04088 464.10293 L
+306.96094 463.62416 L
+303.89698 445.24573 L
+303.81534 444.75846 L
+304.30346 444.68249 L
+304.87380 444.59376 305.42513 444.48945 305.88973 444.39931 C
+@c
+F
+
+@rax %Note: Object
+239.76794 417.55011 259.00214 427.27691 @E
+ 0 O 0 @g
+0.40 0.80 1.00 0.20 k
+/$fm 0 def
+240.73058 427.27691 m
+240.54463 426.83414 L
+240.38419 426.45090 240.23310 426.05943 240.08683 425.68044 C
+239.94198 425.30598 L
+239.76794 424.85528 L
+239.76709 424.85443 240.21638 424.67443 240.21638 424.67443 C
+257.56866 417.73436 L
+258.02957 417.55011 L
+258.20646 418.01386 L
+258.36520 418.42970 258.57751 418.97480 258.80570 419.50885 C
+259.00214 419.96891 L
+258.53754 420.15487 L
+241.17704 427.09833 L
+240.73058 427.27691 L
+@c
+F
+
+@rax %Note: Object
+259.33720 435.75364 273.17622 453.05745 @E
+ 0 O 0 @g
+0.40 0.80 1.00 0.20 k
+/$fm 0 def
+270.80277 436.15559 m
+271.10353 435.75364 L
+271.49669 436.06573 L
+271.96923 436.43962 272.38819 436.75937 272.77682 437.04369 C
+273.17622 437.33565 L
+272.87858 437.73137 L
+261.67550 452.66967 L
+261.38494 453.05745 L
+260.99490 452.77002 L
+260.56120 452.45169 260.13317 452.11833 259.71902 451.79631 C
+259.33918 451.50151 L
+259.30998 451.47855 259.59798 451.09474 259.59798 451.09474 C
+270.80277 436.15559 L
+@c
+F
+
+@rax %Note: Object
+285.66680 444.26438 291.46110 464.08564 @E
+ 0 O 0 @g
+0.40 0.80 1.00 0.20 k
+/$fm 0 def
+288.81241 444.76299 m
+288.89433 444.26438 L
+289.39068 444.36387 L
+289.87002 444.46054 290.38876 444.55323 290.97609 444.64734 C
+291.46110 444.72529 L
+291.38031 445.21058 L
+288.31380 463.60630 L
+288.23443 464.08564 L
+287.75509 464.00882 L
+287.21509 463.92180 286.68161 463.82230 286.13707 463.71997 C
+285.66680 463.63153 L
+285.74617 463.15928 L
+288.81241 444.76299 L
+@c
+F
+
+@rax %Note: Object
+208.63361 373.54507 222.31446 392.26167 @E
+ 0 O 0 @g
+0.40 0.80 1.00 0.20 k
+/$fm 0 def
+216.14570 384.95282 m
+214.77969 385.25584 213.00435 385.58523 213.00435 387.12756 C
+213.00435 388.01225 213.59594 388.82183 215.46255 388.82183 C
+217.48876 388.82183 218.10331 387.86088 218.19430 386.89965 C
+221.74554 386.89965 L
+221.69991 389.47975 220.10627 392.26167 215.69046 392.26167 C
+210.88743 392.26167 209.15717 389.88397 209.15717 387.02665 C
+209.15717 383.08025 211.54762 382.27181 214.41543 381.56343 C
+216.35065 381.08296 218.46756 380.72806 218.46756 378.80589 C
+218.46756 377.26328 217.03323 376.98491 215.62186 376.98491 C
+212.93603 376.98491 212.41247 378.70498 212.43515 379.79263 C
+208.63361 379.79263 L
+208.65657 377.44072 209.70340 373.54507 215.57650 373.54507 C
+221.95020 373.54507 222.31446 377.99631 222.31446 379.43830 C
+222.31446 383.30816 219.49200 384.24444 216.14570 384.95282 C
+@c
+F
+
+@rax %Note: Object
+229.21115 373.54507 243.00652 391.75540 @E
+ 0 O 0 @g
+0.40 0.80 1.00 0.20 k
+/$fm 0 def
+239.25033 381.43644 m
+239.25033 378.40195 238.40816 376.98491 236.10898 376.98491 C
+233.76387 376.98491 232.96734 378.50287 232.96734 381.43644 C
+232.96734 391.75540 L
+229.21115 391.75540 L
+229.21115 380.75386 L
+229.21115 378.83169 229.39370 373.54507 236.10898 373.54507 C
+242.77833 373.54507 243.00652 378.95754 243.00652 380.75386 C
+243.00652 391.75540 L
+239.25033 391.75540 L
+239.25033 381.43644 L
+@c
+F
+
+@rax %Note: Object
+250.85934 374.05106 264.76753 391.75540 @E
+ 0 O 0 @g
+0.40 0.80 1.00 0.20 k
+/$fm 0 def
+261.01191 380.75386 m
+260.94359 380.75386 L
+254.66060 391.75540 L
+250.85934 391.75540 L
+250.85934 374.05106 L
+254.61553 374.05106 L
+254.61553 385.12913 L
+254.66060 385.12913 L
+260.94359 374.05106 L
+264.76753 374.05106 L
+264.76753 391.75540 L
+261.01191 391.75540 L
+261.01191 380.75386 L
+@c
+F
+
+@rax %Note: Object
+287.98611 374.05106 301.66639 391.75540 @E
+ 0 O 0 @g
+0.40 0.80 1.00 0.20 k
+/$fm 0 def
+298.27446 383.53578 m
+298.27446 383.56072 L
+299.80035 384.11773 300.89254 385.20539 300.89254 387.25455 C
+300.89254 389.17672 300.14135 391.75540 295.97669 391.75540 C
+287.98611 391.75540 L
+287.98611 374.05106 L
+295.56680 374.05106 L
+298.41137 374.05106 301.66639 374.73392 301.66639 379.00800 C
+301.66639 382.27181 299.50356 383.25770 298.27446 383.53578 C
+@c
+291.74173 388.31669 m
+295.04268 388.31669 L
+296.70435 388.31669 297.06888 387.32967 297.06888 386.59663 C
+297.06888 385.91405 296.70435 384.77565 295.20198 384.77565 C
+291.74173 384.77565 L
+291.74173 388.31669 L
+@c
+295.63398 377.49118 m
+291.74173 377.49118 L
+291.74173 381.51269 L
+295.15691 381.51269 L
+296.52208 381.51269 297.70583 381.15780 297.70583 379.48876 C
+297.70583 377.87074 296.29417 377.49118 295.63398 377.49118 C
+@c
+F
+
+@rax %Note: Object
+309.08750 374.05106 322.76778 391.75540 @E
+ 0 O 0 @g
+0.40 0.80 1.00 0.20 k
+/$fm 0 def
+319.87672 382.24602 m
+319.87672 382.29647 L
+320.92441 382.70183 322.65468 383.73789 322.65468 386.72249 C
+322.65468 391.30101 318.85285 391.75540 317.23654 391.75540 C
+309.08750 391.75540 L
+309.08750 374.05106 L
+312.84312 374.05106 L
+312.84312 380.57641 L
+315.73417 380.57641 L
+316.16617 380.57641 318.14702 380.67761 318.30633 378.55332 C
+318.51156 375.84652 318.26126 375.16365 318.94384 374.05106 C
+322.76778 374.05106 L
+322.19887 374.96183 322.19887 375.69487 322.15380 377.94586 C
+322.13027 379.23619 322.08520 381.53764 319.87672 382.24602 C
+@c
+316.28098 383.81443 m
+312.84312 383.81443 L
+312.84312 388.31669 L
+316.14378 388.31669 L
+317.76038 388.31669 318.69354 387.78548 318.69354 386.03962 C
+318.69354 385.17959 318.39732 383.81443 316.28098 383.81443 C
+@c
+F
+
+@rax %Note: Object
+328.07169 374.05106 343.82353 391.75540 @E
+ 0 O 0 @g
+0.40 0.80 1.00 0.20 k
+/$fm 0 def
+334.03578 391.75540 m
+328.07169 374.05106 L
+332.03254 374.05106 L
+333.03402 377.36419 L
+338.81613 377.36419 L
+339.84028 374.05106 L
+343.82353 374.05106 L
+337.83704 391.75540 L
+334.03578 391.75540 L
+@c
+333.85351 380.37458 m
+335.94775 387.12756 L
+337.99663 380.37458 L
+333.85351 380.37458 L
+@c
+F
+
+@rax %Note: Object
+349.85594 374.05106 363.76413 391.75540 @E
+ 0 O 0 @g
+0.40 0.80 1.00 0.20 k
+/$fm 0 def
+360.00850 380.75386 m
+359.94019 380.75386 L
+353.65776 391.75540 L
+349.85594 391.75540 L
+349.85594 374.05106 L
+353.61269 374.05106 L
+353.61269 385.12913 L
+353.65776 385.12913 L
+359.94019 374.05106 L
+363.76413 374.05106 L
+363.76413 391.75540 L
+360.00850 391.75540 L
+360.00850 380.75386 L
+@c
+F
+
+@rax %Note: Object
+371.82331 374.05106 386.41408 391.75540 @E
+ 0 O 0 @g
+0.40 0.80 1.00 0.20 k
+/$fm 0 def
+378.67493 391.75540 m
+371.82331 391.75540 L
+371.82331 374.05106 L
+378.33279 374.05106 L
+380.90608 374.05106 386.41408 374.55761 386.41408 382.92888 C
+386.41408 391.55357 380.19997 391.75540 378.67493 391.75540 C
+@c
+377.96882 377.49118 m
+375.57865 377.49118 L
+375.57865 388.31669 L
+378.19701 388.31669 L
+379.78980 388.31669 382.36224 387.75969 382.36224 382.85348 C
+382.36224 379.21124 380.90608 377.49118 377.96882 377.49118 C
+@c
+F
+
+%%PageTrailer
+@rs
+@rs
+%%Trailer
+@EndSysCorelDict
+end
+%%DocumentSuppliedResources: procset wCorel9Dict 9.0 0
+%%EOF
